@@ -13,4 +13,4 @@ spec:
         - name: tpurlpipelinesjavascriptdocker 
           image: lossnotice3cr.azurecr.io/tpurlpipelinesjavascriptdocker 
           ports:
-          - containerPort: 80
+          - containerPort: 8080
