@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: tpurlpipelinesjavascriptdocker 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: tpurlpipelinesjavascriptdocker 
+    spec:
+      containers:
+        - name: tpurlpipelinesjavascriptdocker 
+          image: lossnotice3cr.azurecr.io/tpurlpipelinesjavascriptdocker 
+          ports:
+          - containerPort: 80
